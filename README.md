@@ -1,1 +1,9 @@
-# pipeline_databricks_azure
+##Pipeline Completo de Engenharia de Dados para Imóveis
+
+Este projeto tem como objetivo principal o desenvolvimento e orquestração de um pipeline completo de engenharia de dados na nuvem, focado na ingestão e transformação de dados de imóveis. A arquitetura segue o conceito de Data Lake com múltiplas camadas para garantir qualidade e consistência dos dados.
+
+🎯 Objetivo do ProjetoCriar um sistema automatizado para:Construir e estruturar um Data Lake na plataforma Azure.Realizar a Ingestão de Dados de Imóveis na camada inicial.Aplicar transformações incrementais nos dados através de múltiplas camadas de qualidade (Bronze e Silver).Orquestrar a execução automática e contínua do pipeline.
+
+⚙️ Arquitetura e Fluxo de DadosO pipeline é projetado para mover os dados de forma estruturada, garantindo que cada camada adicione valor e qualidade:CamadaNome TécnicoDescriçãoIngestãoInbound (Raw)Recebe os dados de imóveis em seu formato original, sem alterações.Transformação 1BronzeLimpeza básica, padronização de tipos de dados e adição de metadados.Transformação 2SilverAplicação de regras de negócio, enriquecimento e estruturação dos dados.
+
+🛠️ Stack Tecnológico (Ferramentas Utilizadas)O projeto é construído em uma solução robusta e escalável, utilizando as seguintes ferramentas:FerramentaUso no ProjetoAzurePlataforma de Cloud Computing e infraestrutura geral do Data Lake.Azure Data Factory (ADF)Orquestração e Agendamento do pipeline, garantindo a execução a cada hora.DatabricksAmbiente de desenvolvimento e execução dos notebooks de transformação de dados.ScalaLinguagem de programação utilizada para manipulação, limpeza e transformação de dados dentro do Databricks.⏱️ Agendamento (Frequência de Execução)O pipeline foi configurado para ser executado de forma automática e consistente a cada hora, garantindo que os dados permaneçam sempre atualizados e prontos para consumo.
