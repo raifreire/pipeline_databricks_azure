@@ -1,0 +1,9 @@
+{
+	"name": "dfactoy-databricks",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "806d0cac-150a-4e03-bf55-f6fcb5947a65",
+		"tenantId": "f6bb3319-3f69-4af8-9ff4-f789d69b7def"
+	}
+}
